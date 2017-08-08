@@ -1,0 +1,6 @@
+This is a trial of the test script.
+This is the second trial of the test script.
+# sed 's/trial/trial/2' data5
+# sed 's/trial/trial/g' data5
+# sed 's/trial/trial/p' data5
+# sed 's/trial/trial/w test' data5
