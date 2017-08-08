@@ -1,7 +1,8 @@
 #!/bin/bash
 # using functions defined in a library file
 
-. ./myfuncs
+#. ./myfuncs
+source ./myfuncs
 
 value1=10
 value2=15
