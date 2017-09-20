@@ -1,0 +1,5 @@
+#!/bin/bash
+# send a command to the MYSQL server
+
+MYSQL=`which mysql`
+$MYSQL test -u test -e 'select * from empoyess'

@@ -1,0 +1,6 @@
+#!/bin/bash
+# send a command to the PostgreSQL server
+
+PSQL=`which psql`
+
+$PSQL test -c 'select * from employees'

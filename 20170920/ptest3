@@ -1,0 +1,9 @@
+#!/bin/bash
+# sending multiple commands to PostgreSQL
+
+PSQL=`which psql`
+
+$PSQL test << EOF
+\dt
+select * from employees where salary > 40000;
+EOF

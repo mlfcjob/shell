@@ -1,0 +1,6 @@
+#!/bin/bash
+#test connecting to the MySQL Server
+
+MYSQL=`which mysql`
+
+$MYSQL test -u test -p 
